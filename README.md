@@ -33,7 +33,7 @@ And produces the following output:
 To install the app, run through the following steps:
 
 * Clone the repository
-* Make sure the machine has [Java]() and [Maven]() installed.
+* Make sure the machine has [Java](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html) and [Maven](https://maven.apache.org/download.cgi) installed.
 * From the command line, type `mvn clean install`, this will start the installation process
 * Once installation is complete, the `jar` file will be present inside `target` folder. This file is an executable file and can be run via `java -jar <file>.jar` command
 * By default, the application starts on 8585 port and has `/hoover` configured as context path. However, these parameters can be changed via application.properties file
